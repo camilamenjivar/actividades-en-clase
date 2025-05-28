@@ -1,14 +1,25 @@
 #include <iostream>
 using namespace std;
 int main (){
-    float temperatura;
-    cout << "Ingrese la temperatura en grados celsius";
-    cin>> temperatura;
+    int numero;
+    cout << "Ingrese un numero" <<endl;
+    cin >> numero;
+    if (numero < 0){
+        cout << "No puede ingresar un numero negativo" <<endl;
 
-    if (temperatura <= o){
-        cout << "Hace mucho frio" <<endl;
     }
-    else if (temperatura <= 18){
-        cout << ""
+     
+    else 
+    {
+        for (int i = 0; i < 100; i++)
+        {
+            cout<< numero << "+" << i  << "=" << numero + i <<endl;
+
+
+
+        }
+        
     }
+    
+        
 }
